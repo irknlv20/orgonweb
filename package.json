@@ -1,7 +1,7 @@
 {
-    "name": "tronweb",
+    "name": "orgonweb",
     "version": "6.0.0",
-    "description": "JavaScript SDK that encapsulates the TRON HTTP API",
+    "description": "JavaScript SDK that encapsulates the ORGON HTTP API",
     "main": "./lib/commonjs/index.js",
     "module": "./lib/esm/index.js",
     "types": "./lib/esm/index.d.ts",
@@ -21,8 +21,8 @@
         }
     },
     "keywords": [
-        "TRON",
-        "tronweb"
+        "ORGON",
+        "orgonweb"
     ],
     "scripts": {
         "build:esm": "tsc --project tsconfig.esm.json && echo '{\"type\": \"module\"}' > ./lib/esm/package.json && npm run copy-protocol:esm",
@@ -129,5 +129,5 @@
     },
     "homepage": "https://tronweb.network",
     "license": "MIT",
-    "repository": "https://github.com/tronprotocol/tronweb.git"
+    "repository": "https://github.com/alexozerov/orgonweb.git"
 }
